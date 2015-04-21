@@ -5,6 +5,6 @@ attribute was successively appended to. This resulted in a massive allocaion of
 memory and an ever growing slowdown.
 
 I created a new function called xmlWrite in ProcessList.py. This function does
-not prettify the document string (as it is very close to being prettified). This process was taking 10 minutes on a Mac i7
+not prettify the document string (as it is very close to being prettified). This 'prettyXmlWrite' function takes 10 minutes on a Mac i7
 laptop. I will want to check, but I can't imagine prettified xml being
 operationally critical.
